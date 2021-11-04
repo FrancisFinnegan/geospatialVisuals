@@ -1,0 +1,148 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Karen F. Rheams
+      Publication_Date: November 1982
+      Title: landslides_rheams_1982_Spati1
+      Geospatial_Data_Presentation_Form: vector digital data
+      Series_Information:
+        Series_Name: Inventory of Landslides, Slope Failures, and Unstable Soil Conditions
+      Publication_Information:
+        Publisher: Geological Survey of Alabama
+      Online_Linkage: \\Gnarus\HOME\Students\Steven\GIS_Data\AL_Landslide\AL_Hist_Slides\Historical Landslides Spatial Join\landslides_rheams_1982_Spati1.shp
+  Description:
+    Abstract: Inventory of historic landslides in the State of Alabama.
+    Purpose: To display the distribution of landslides throughout the State of Alabama.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.
+    Currentness_Reference: 1982
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -88.477293
+      East_Bounding_Coordinate: -84.960962
+      North_Bounding_Coordinate: 34.991583
+      South_Bounding_Coordinate: 30.264000
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.
+      Theme_Keyword: landslide
+      Theme_Keyword: highway
+    Place:
+      Place_Keyword: Alabama
+  Access_Constraints: None
+  Use_Constraints:
+    Reproduction or redistribution of digital datasets or products derived therefrom to a third party organization or entity is expressly forbidden.  None of these data shall be electronically duplicated on magnetic or optical media for use by others, in whole or in part, without permission of the Geological Survey of Alabama.  Any hardcopies utilizing these datasets shall clearly indicate their source.  If the data are modified in any way by the user, the user is obligated to describe the types of modifications performed on the hardcopy map.  User specifically agrees not to misrepresent this dataset, nor to imply that any changes made by the user were approved by the Geological Survey of Alabama.  The Geological Survey of Alabama should be acknowledged as the originator of the data.  This dataset is to be used as a primary reference source.  This is public information and may be interpreted by organizations or others based on needs; however, users are responsible for the appropriate application.  Federal, state, or local regulatory bodies are not to reassign to the originators any authority for decisions they make.  Photographic or digital enlargement of these maps to scales greater than those at which they were originally delineated can cause misrepresentation of the data. Uses of this digital geologic map should not violate the spatial resolution of the data. Although the digital form of the data removes the constraint imposed by the scale of a paper map, the detail and accuracy inherent in map scale are also present in the digital data. The fact that this database was edited for a scale of 1:250,000 means that higher resolution information is not present in the dataset. Plotting at scales larger than 1:250,000 will not yield greater real detail, although it may reveal fine-scale irregularities below the intended resolution of the database. Similarly, where this database is used in combination with other data of higher resolution, the resolution of the combined output will be limited by the lower resolution of these data. Digital data files are periodically updated.  Files are dated, and users are responsible for obtaining the latest version of the data.
+
+    Although this product represents the work of professional scientists, the Geological Survey of Alabama, makes no warranty, expressed or implied, regarding its suitability for a particular use, and does not guarantee accuracy or completeness of the data.  The Geological Survey of Alabama shall not be liable under any circumstances for any direct, indirect, special, incidental, or consequential damages with respect to claims by users of this product. 
+     
+    The data are provided, as is, without warranty of any kind and the user is responsible for understanding the accuracy limitations of all digital data layers provided herein. Any reproduction or manipulation of the above data must ensure that the coordinate reference system remains intact.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Geological Survey of Alabama
+        Contact_Person: Sandy Ebersole
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: P.O. Box 869999
+        Address: 420 Hackberry Lane
+        City: Tuscaloosa
+        State_or_Province: Alabama
+        Postal_Code: 35486
+        Country: USA
+      Contact_Voice_Telephone: 205-247-3613
+      Contact_Facsimile_Telephone: 205-349-2861
+  Data_Set_Credit: Kyle Beasley; Karen F. Rheams
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 458
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000
+          Ordinate_Resolution: 0.000000
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.400000
+      Denominator_of_Flattening_Ratio: 294.978698
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: landslides_rheams_1982_Spati1
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County in which the landslide is located.
+    Attribute:
+      Attribute_Label: QUAD
+      Attribute_Definition: Name of the topgraphic quadrangle in which the landslide is located.
+    Attribute:
+      Attribute_Label: ORIG_LABEL
+    Attribute:
+      Attribute_Label: UNIT_AGE
+    Attribute:
+      Attribute_Label: ROCKTYPE1
+    Attribute:
+      Attribute_Label: ROCKTYPE2
+    Attribute:
+      Attribute_Label: MAP_UNIT
+Distribution_Information:
+  Resource_Description: Downloadable Data
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Transfer_Size: 0.012
+Metadata_Reference_Information:
+  Metadata_Date: 20111207
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Geological Survey of Alabama
+      Contact_Address:
+        Address_Type: REQUIRED: The mailing and/or physical address for the organization or individual.
+        City: REQUIRED: The city of the address.
+        State_or_Province: REQUIRED: The state or province of the address.
+        Postal_Code: REQUIRED: The ZIP or other postal code of the address.
+      Contact_Voice_Telephone: REQUIRED: The telephone number by which individuals can speak to the organization or individual.
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
